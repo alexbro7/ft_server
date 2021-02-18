@@ -16,3 +16,6 @@ COPY srcs/wp-config.php ./
 
 #LANCEMENT
 CMD bash /launcher.sh
+
+EXPOSE 80
+EXPOSE 443
