@@ -13,6 +13,7 @@ RUN apt-get install -y mariadb-server mariadb-client
 COPY srcs/launcher.sh ./
 COPY srcs/default ./
 COPY srcs/wp-config.php ./
+COPY srcs/disable_autoindex.sh ./
 
 #LANCEMENT
 CMD bash /launcher.sh
